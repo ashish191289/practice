@@ -10,6 +10,8 @@ test('My first',async ({page}) => {
 
 await page.goto('https://google.com')
 await expect(page).toHaveTitle('Google')
+await expect(page).toHaveTitle('Google')
+
 
 })
 
